@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="2UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Forms" author="Natilla">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link type="img/chupete.png" href="img/icons8-carpeta-de-favoritos-64.png" rel="icon">
+    <title>FORMULARIO</title>
+</head>
+
+<header class="header">
+    <nav class="nav">
+        <a href="https://www.instagram.com/accounts/login/?next=/mamamoo_official/" class="logo nav-link">ZONA K-POP</a>
+        <ul class="nav-menu">
+            <li class="nav-menu-item-"><a href="Home.html" class="nav-menu-link nav-link">HOME</a></li>
+            <li class="nav-menu-item-"><a href="integrantes.html" class="nav-menu-link nav-link">INTEGRANTES</a></li>
+            <li class="nav-menu-item-"><a href="Videos.html" class="nav-menu-link nav-link">VIDEOS</a></li>
+            <li class="nav-menu-item-"><a href="Formulario.html" class="nav-menu-link nav-link">FORMULARIO</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<body>
+
+    <div class="titulo">
+        <h1>Formulario K-POP</h1>
+    </div>
+
+    <section id="formulario">
+
+            <article class="tex-formulario">
+                <img src="img/1452829.jpg">
+
+                <p>Muchos han oído hablar del fenómeno musical del Kpop o al menos del éxito mundial del grupo BTS.  Y no deja de sorprender lo poderoso que es todo este movimiento de fanáticos alrededor del mundo. Para entender todo lo que está pasando lo primero que tenemos que tener claro es el que el KPOP no es fenómeno del momento, lleva ya muchos años en evolución. KPOP no es otra cosa que pop coreano, eso significa la palabra.</p>
+    
+                <h3><u>Instrucciones</u></h3>
+                <p><em>El presente formulario tiene como objetivo saber los intereses de gente común sobre el fenómeno musical Kpop, por favor llene todos los datos y si tiene alguna duda puede</em><a href="https://www.youtube.com/watch?v=3lQtCO1wFFE" target="_blank"> ver tutorial del formulario aquí</a></p>
+            </article>
+
+
+            <article clas="tabla">
+                    <table border="2">
+                        <tr>
+                            <th colspan="2">Datos Básicos</th>
+                        </tr>
+                        <!--Control type:Nombre-->
+                        <tr>
+                            <td><ul>
+                                <li><label for="nombre">Nombres:</label>
+                            <td><input name="nombre" id="nombre" type="text" placeholder="Ingresar Nombre Completo" maxlength="20" autocomplete="on"></td>
+                        </tr>
+                        <!--Control type:apellido-->
+                        <tr>
+                            <td><ul>
+                                <li><label for="nombre">Apellidos:</label></td>
+                            <td><input name="nombre" id="nombre" type="text" placeholder="Ingresar Apellido Completo" maxlength="20" autocomplete="on"></li> </td>                    
+                        </tr>
+                        <!--Control type:email-->
+                        <tr>
+                            <td><ul>
+                                <li><label for="email">Ingresa el correo electrónico</label></td>
+                            <td><input type="email" id="email" name="email"placeholder="Ingresar email" maxlength="20" autocomplete="on"></li></td>                    
+                        </tr>
+                        <!--Control type:edad-->
+                        <tr>
+                            <td><ul>
+                                <li><label for="edad">Edad</label></td>
+                            <td><input name="edad" id="edad" type="number" placeholder="Ingresar edad" min="10" max="100"></li></td>                    
+                        </tr>
+                        <!--Control type:date-->
+                        <tr>
+                            <td><ul>
+                                <li><label type="date">Fecha de nacimiento: </label></td>
+                            <td><input type="date" id="date" name="date" min="2000-01-01" max="2022-01-01"></li></td>                    
+                        </tr>
+                        <!--Control type:region-->
+                        <tr>
+                            <td><ul>
+                                <li><label for="region">¿En qué región vives?</label></td>
+                            <td><select name="region" id="region"></li>
+                                <option value="0" selected>Elige una región</option>
+                                <optgroup label="Asia">
+                                <option value="1">Japón</option>
+                                <option value="2">Korea</option>
+                                <option value="3">Malasia</option>
+                                <option value="4">Nepal</option>
+                                </optgroup>
+                                <optgroup label="Europa">
+                                <option value="5">Italia</option>
+                                <option value="6">Francia</option>
+                                <option value="7">Grecia</option>
+                                <option value="8">Polonia</option>
+                                </optgroup>
+                                <optgroup label="América Latina">
+                                <option value="9">Chile</option>
+                                <option value="10">Argentina</option>
+                                <option value="11">Colombia</option>
+                                <option value="12">Perú</option>
+                                </optgroup>
+                                <optgroup label="Africa">
+                                <option value="13">Angola</option>
+                                <option value="14">Kenia</option>
+                                <option value="15">Etiopia</option>
+                                <option value="16">Nigeria</option>
+                                </optgroup>
+                            </select></td>                    
+                        </tr>
+                        <!--Control type:selec-->
+                        <tr>
+                            <td><ul>
+                                <li><label for="Ciudad">¿En qué ciudad vives?</label></td>
+                            <td><select name="ciudad" id="ciudad"></li>
+                                <option value="0" selected>Elige una ciudad</option>
+                                <option value="1">San Francisco</option>
+                                <option value="2">Manchester</option>
+                                <option value="3">Montreal</option>
+                                <option value="4">Bogotá</option>
+                                <option value="5">Bucaramánga</option>
+                                <option value="6">New York</option>
+                                <option value="7">Praga</option>
+                                <option value="8">Seul</option>
+                                <option value="9">Londres</option>
+                                <option value="10">Sidney</option>
+                                <option value="11">Miami</option>
+                                <option value="12">Boston</option>
+                            </select></td>                    
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>                    
+                        </tr>
+                    </table>
+            </article>
+    
+
+            <article class="question">
+
+                    <h3><u>Conocimiento de Kpop</u></h3>
+
+                    <label for="ecivil">¿Cuáles son sus intereses? </label>
+                    <ul>
+                        <li><input name="ecivil" id="ecivil" type="radio">   Saber más sobre Kpop</li>
+                        <li><input name="ecivil" id="ecivil" type="radio">   Comebak's</li>
+                        <li><input name="ecivil" id="ecivil" type="radio">   Conocer Idols</li>
+                        <li><input name="ecivil" id="ecivil" type="radio">   Coreografías</li>
+                        <li><input name="ecivil" id="ecivil" type="radio">   Fandom's</li>
+                    </ul>
+
+                    <label for="ecivil">¿Cómo se llama el fandom de BTS? </label>
+                    <ul>
+                        <li><input name="ecivil" id="ecivil" type="radio">UNIVERSE</li>
+                        <li><input name="ecivil" id="ecivil" type="radio">EXO-L</li>
+                        <li><input name="ecivil" id="ecivil" type="radio">ARMY</li>
+                        <li><input name="ecivil" id="ecivil" type="radio">BLINK</li>
+                    </ul>
+            
+                    <label for="deporte">¿Cómo se llama el fandom de MAMAMOO?</label>
+                    <ul>
+                        <li><input name="deporte" id="deporte" type="checkbox">MOMOO</li>
+                        <li><input name="deporte" id="deporte" type="checkbox">MONBEBE</li>
+                        <li><input name="deporte" id="deporte" type="checkbox">MINDZY</li>
+                        <li><input name="deporte" id="deporte" type="checkbox">ALICE</li>
+                    </ul>
+            
+            </article>
+            
+            <article class="selec-question">
+                <ul>
+                    <li>
+                        <label for="buscar">¿No sabes como se llama el fandom de tu grupo favorito? búscalo aquí:</label>
+                        <input type="serach" ide="buscar" name="Buscar" placeholder="bucar...">
+                        <input type="submit" value="ir">
+                    </li>
+                    
+                    <li>
+                        <label for="color">Si fueras un "Idol" seleccione un color que te identifique </label>
+                        <input type="color" id="color" name="color">
+                    </li>
+                
+                    <li>
+                        <label for="file">Sube aquí tu carta a tu Idol o grupo favorito</label>
+                        <input type="file" name="file" id="file" required accept="image/*">
+                    </li>
+
+                    <li>
+                        <label for="observaciones">¿Tienes alguna sugerencia o comentario? déjamelo saber aquí</label>
+                        <textarea rows="5" cols="30" name="observaciones"></textarea>
+                    </li>
+
+                    <input type="reset" value="Borrar">
+                    <input type="submit" value="Enviar">
+                </ul>
+            </article>
+    </section>
+
+
+        <footer class="final">
+            <p>Si llegaste hasta aquí ¡felicidades! ten un bonito día</p>
+        </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,268 @@
+/*determinar como hacer los estilos*/
+/*regrla-selector-propiedad*/
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+*{
+    /*padding: 0;*/
+    /*margin: 0;*/
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --Amarillo-color: #ffff96;
+    --Naranja-color: #ff6565;
+    --lila-color: #F9A9FB;
+    --lilaP-color: #F9DEFA;
+    --texto-color: #3b3333;
+    --subtitulo-color: #ff9c9c;
+    --logo-color: #ff3eb6;
+}
+
+body{
+    font-family: 'Boogaloo', cursive;
+    background-image: url(../img/6016833.jpg);
+    background-size: 1440px;
+    flex-direction: row;
+    padding: 100px 20px 0;
+}
+
+p{
+    color: #3b3333;
+    text-align: justify;
+    font-family: 'Kufam', sans-serif;
+}
+
+h3{
+    font-family: 'Boogaloo', cursive;
+    color: #ff9c9c;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px var(--texto-color);
+}
+
+table{
+    color: #3b3333;
+    border: 4px groove #fa7c92;
+    border-collapse: collapse;
+    margin: auto;
+    font-family: 'Kufam', sans-serif;
+    list-style-image: url(../img/icons8-huevo-kawaii-24.png);
+}
+
+/*Barra de navegación*/
+.header{
+    background-color: #ffff96;
+    height: 80px;
+    position: fixed;
+    width:  100%;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color:var(--Naranja-color);
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 60px;
+    color: var(--lila-color);
+    text-shadow: 2px 2px 4px var(--texto-color);
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover{
+    background-color: #F9A9FB;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/*Home*/
+.titulo{
+    margin: 20px auto;
+}
+
+.titulo h1{
+    color: #ff6565;
+    font-size: 80px;
+    margin-left: 60px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Boogaloo', cursive;
+    text-shadow: 2px 2px 4px var(--texto-color);
+}
+
+.contenido{
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.contenido ul{
+    list-style-image: url(../img/icons8-huevo-kawaii-24.png);
+}
+
+.mamamoo {
+    width: fit-content 800px;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 223, 187, 0.70 ), rgba(246, 244, 240, 0.70));
+    /*background: linear-gradient(rgba(249, 169, 251, 0.70), rgba(249, 222, 250, 0.70));*/
+    margin: 20px 30px;
+    padding: 30px 30px;
+    box-shadow: 3px 3px 7px #999999;
+    font-family: 'Kufam', sans-serif;
+    /*opacity: 0.5;*/
+}
+
+.mamamoo img{
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+}
+
+/*Formulario*/
+#formulario {
+    width: 800px;
+    padding: 10px;
+    overflow: hidden;
+    margin: auto;
+    background: linear-gradient(rgba(249, 169, 251, 0.70), rgba(249, 222, 250, 0.70));
+
+    /*width: 900px;
+    justify-content: center;
+    flex-direction: row;
+    background: linear-gradient(rgba(255, 223, 187, 0.70), rgba(255, 255, 205, 0.70));
+    /*background-color: linear-gradient(rgba(249, 169, 251, 0.70), rgba(249, 222, 250, 0.70));*/
+    /*margin-left: auto;
+    margin-right: auto;
+    /*margin: 20px 30px;*/
+    /*padding: 30px 30px;
+    box-shadow: 3px 3px 7px #999999;
+    font-family: 'Kufam', sans-serif;*/
+    /*opacity: 0.5;*/
+}
+
+.tex-formulario{
+    padding: 10px;
+    margin: 25px;
+    color: var(--texto-color);
+    text-align: justify;
+    font-family: 'Kufam', sans-serif;
+}
+
+.tex-formulario img{
+    width: 460px;
+    float: left;
+    margin-right: 40px;
+}
+
+.question{
+    color: #3b3333;
+    margin-left: 100px;
+    font-family: 'Kufam', sans-serif;
+    list-style-image: url(../img/icons8-huevo-kawaii-24.png);
+}
+
+.selec-question{
+    color: #3b3333;
+    margin-left: 70px;
+    padding: 10px;
+    font-family: 'Kufam', sans-serif;
+    list-style-image: url(../img/icons8-huevo-kawaii-24.png);
+}
+
+/*Integrantes*/
+.integrantes ul{
+    border-collapse: collapse;
+    padding: 10px;
+    list-style-image: url(../img/icons8-huevo-kawaii-24.png);
+}
+
+#idols{
+    width: 800px;
+    padding: 10px;
+    overflow: hidden;
+    margin: auto;
+    background: linear-gradient(rgba(249, 169, 251, 0.70), rgba(249, 222, 250, 0.70));
+}
+
+.idol img{
+    width: 100px auto;
+    margin: 10px;
+    float: right;
+}
+
+.texidol{
+    margin-left: 20PX;
+    float: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.idol table{
+    text-align: center;
+    padding: 20px;
+}
+
+.idol h3{
+    padding: 20px 50px;
+}
+
+/*Videos*/
+#videos{
+    width: 800px;
+    padding: 10px;
+    overflow: hidden;
+    margin: auto;
+    background: linear-gradient(hsla(299, 91%, 82%, 0.7), rgba(249, 222, 250, 0.70));
+}
+
+.video{
+    margin: 50px;
+    align-items: center;
+    /*margin: 0 15px;*/
+}
+
+.yt-video{
+    float: center;
+}
+
+.texvideo{
+    margin: 20px;
+    float: center;   
+}
+
+.final p{
+    text-align: center;
+    background-color: #ffff96;
+    color: var(--logo-color);
+    font-weight: bold;
+}
